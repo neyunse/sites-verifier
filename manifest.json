@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Site Verifier",
+  "description": "Detecta si el sitio que visitas es un dominio verificado.",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>",
+    "https://raw.githubusercontent.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/yellow.png",
+      "32": "icons/yellow.png",
+      "48": "icons/yellow.png",
+      "128": "icons/yellow.png"
+    }
+  }
+}
