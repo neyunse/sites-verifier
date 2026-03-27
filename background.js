@@ -1,4 +1,4 @@
-importScripts("verified.js");
+importScripts("verifier.js");
 
 loadVerifiedSites();
 

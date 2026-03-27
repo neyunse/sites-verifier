@@ -1,0 +1,24 @@
+{
+  "name": "site-verifier",
+  "version": "1.0.0",
+  "description": "Site Verifier is a browser extension designed to protect users from phishing and homograph (IDN) attacks. It automatically detects if the website you are visiting belongs to a list of verified domains.",
+  "homepage": "https://github.com/neyunse/sites-verifier#readme",
+  "bugs": {
+    "url": "https://github.com/neyunse/sites-verifier/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neyunse/sites-verifier.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node -e \"const fs = require('fs'); if (!fs.existsSync('dist')) fs.mkdirSync('dist');\" && bestzip dist/site-verifier.zip manifest.json background.js verifier.js icons/ sites.json"
+  },
+  "devDependencies": {
+    "bestzip": "^2.2.3"
+  }
+}
