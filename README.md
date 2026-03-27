@@ -11,13 +11,14 @@ Site Verifier is a browser extension designed to protect users from phishing and
 
 ## Installation
 
-Since this is a developer version, you can install it manually in your browser (Chrome, Edge, or any Chromium-based browser):
+To install the extension, follow these steps:
 
-1. **Download or Clone** this repository to your local machine.
-2. Open your browser and navigate to `chrome://extensions/`.
-3. Enable **Developer mode** (usually a toggle in the top right corner).
-4. Click on the **Load unpacked** button.
-5. Select the folder where you downloaded/cloned the project.
+1. **Download the latest release** from the [Releases page](https://github.com/neyunse/sites-verifier/releases).
+2. **Unzip** the downloaded file to a local folder.
+3. Open your browser and navigate to `chrome://extensions/`.
+4. Enable **Developer mode** (usually a toggle in the top right corner).
+5. Click on the **Load unpacked** button.
+6. Select the folder where you unzipped the extension.
 
 ## How it Works
 
@@ -25,7 +26,7 @@ The extension uses different icons to indicate the verification status of the cu
 
 - ![Yellow Icon](icons/yellow.png) **Yellow**: Scanning or unknown status.
 - ![Verified Icon](icons/verified.png) **Green Check**: The domain is verified and safe.
-- ![Default Icon](icons/default.png) **Default/Gray**: The domain is not in the verified list.
+- ![Default Icon](icons/default.png) **Default/Red**: The domain is not in the verified list.
 
 ## Project Structure
 
